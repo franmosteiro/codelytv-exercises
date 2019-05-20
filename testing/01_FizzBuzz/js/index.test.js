@@ -21,4 +21,10 @@ describe('Fizzbuzz should', () => {
 
     });
 
+    test('return "FizzBuzz" if divisible by 3 and 5', () => {
+
+        expect(fizzbuzz(15)).toBe('FizzBuzz');
+
+    });
+
 });
