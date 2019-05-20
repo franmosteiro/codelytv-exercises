@@ -9,4 +9,10 @@ describe('Fizzbuzz should', () => {
 
     });
 
+    test('return "Fizz" if divisible by 3', () => {
+
+        expect(fizzbuzz(3).toBe('Fizz'));
+
+    });
+
 });
