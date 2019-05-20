@@ -2,9 +2,9 @@ const fizzbuzz = require('./index.js');
 
 describe('Fizzbuzz should', () => {
 
-    test('', () => {
+    test('return itself', () => {
 
-        expect(1).toBe(1);
+        expect(fizzbuzz(1)).toBe(1);
 
     });
 
